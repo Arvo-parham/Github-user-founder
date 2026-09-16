@@ -5,7 +5,7 @@ A web application built with HTML, CSS, and Vanilla JavaScript that allows users
 ## Preview
 
 ![GitHub User Finder Preview](./screenshot.png)
-![GitHub User Finder Preview](./screenshot2.png)
+![GitHub User Finder Preview](./screenshot1.png)
 
 
 ## Source Code
