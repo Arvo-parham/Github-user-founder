@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+    <title>Github user founder</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="head">
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+        <h1>Github User Founder</h1>
+      </div>
+
+      <div class="search-container">
+        <div class="search-box">
+          <i class="fa-solid fa-search" aria-hidden="true"></i>
+
+          <input
+            type="text"
+            id="usernameInput"
+            placeholder="Search username..."
+          />
+        </div>
+
+        <button id="findBtn">Find</button>
+      </div>
+
+      <div id="message" class="message"></div>
+
+      <div class="show-container">
+        <div class="show-head">
+          <img id="userAvatar" src="./images/avatar.png" alt="avatar" />
+          <div class="show-head-text">
+            <h2 id="username">username</h2>
+            <div class="show-icons">
+              <i class="fa-solid fa-location-dot"></i>
+              <p id="location">Location</p>
+            </div>
+            <div class="show-icons">
+              <i class="fa fa-link" aria-hidden="true"></i>
+              <a id="githubLink" href="#">github.com/username</a>
+            </div>
+          </div>
+        </div>
+        <div class="show-info">
+          <h3 id="bio">
+            username bio Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+          </h3>
+          <div class="info-boxes">
+            <div class="box">
+              <span>Repositories</span>
+              <p id="repositories">--</p>
+            </div>
+            <div class="box">
+              <span>Followers</span>
+              <p id="followers">--</p>
+            </div>
+            <div class="box">
+              <span>Following</span>
+              <p id="following">--</p>
+            </div>
+          </div>
+        </div>
+        <div class="popular-repos">
+          <h2>Popular repositories</h2>
+          <div class="popular-boxes"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
