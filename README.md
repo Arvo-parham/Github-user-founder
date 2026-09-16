@@ -4,9 +4,9 @@ A web application built with HTML, CSS, and Vanilla JavaScript that allows users
 
 ## Preview
 
-![GitHub User Finder Preview](./screenshot.png)
-![GitHub User Finder Preview](./screenshot1.png)
+![GitHub User Finder Preview](./Screenshot1.png)
 
+![GitHub User Finder Preview](./Screenshot.png)
 
 ## Source Code
 
